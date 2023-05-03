@@ -24,12 +24,20 @@ body{
     background-color: white;
 }
 
+.container{
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 60px;
+}
+
 /* 
         HEADER
 */
 
 header{
     line-height: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -40,4 +48,32 @@ h1{
 
 #logo{
     vertical-align: middle;
+}
+
+/* 
+    BUTTONS
+*/
+
+.main-button{
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.main-button-padding{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+.selected{
+    color: white;
+    background-color: dodgerblue;
+    border: 0px;
+}
+
+.not-selected{
+    color:rgb(184, 179, 179);
+    background-color: white;
+    border: 1px solid rgb(184, 179, 179);
 }
