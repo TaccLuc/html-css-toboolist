@@ -1,7 +1,5 @@
 /* 
-
-RESET
-
+        RESET
 */
 
 *{
@@ -11,11 +9,35 @@ RESET
 }
 
 /* 
-
-GENERAL
-
+        GENERAL
 */
 
 *{
     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #F6F8F9;
+}
+
+.background-white{
+    background-color: white;
+}
+
+/* 
+        HEADER
+*/
+
+header{
+    line-height: 50px;
+    
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo{
+    vertical-align: middle;
 }
